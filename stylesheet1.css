@@ -51,7 +51,7 @@
   
   .header-right a {
     line-height: 65px;
-    padding: 0 35px;
+    padding: 0 20px;
     color: white;
     display: block;
     float: left;
@@ -66,13 +66,11 @@
   .menu-icon {
     color: white;
     float: right;
-    font-size: 35px;
+    font-size: 25px;
     padding: 21px 0;
-  }
-
-  .header-icon {
     display: none;
   }
+
 
   /* CSS stylesheet untuk main */
   .container {
