@@ -74,3 +74,86 @@
     display: none;
   }
 
+  /* CSS stylesheet untuk main */
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {    
+    padding: 188px 0 100px 0;
+    background-image: url(Gambar/1.png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+	  overflow:hidden;
+  }
+  
+
+  .top-wrapper h1 {
+    opacity: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: fade-in 4.50s ease-out;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  @keyframes fade-in {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  .top-wrapper span {
+    color: red;
+  }
+
+  .top-wrapper h2 {
+    opacity: 1;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    animation: fade-in 2s ease-out;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+  }
+
+  @keyframes fade-in {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  .top-wrapper a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px 34px;
+    text-decoration: none;
+    transition: all 2.75s;
+    border-radius: 4px;
+    margin: 40px;
+  }
+
+  .top-wrapper a:hover {
+      background-color:red;
+      color: rgb(255, 255, 255);
+      transition: all 1.75s ease-out;
+  }
