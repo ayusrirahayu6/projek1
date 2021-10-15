@@ -1,35 +1,87 @@
 /* Responsive Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
 
-}
-  
-  /* CSS Untuk Smartphone */
-@media all and (max-width: 670px) {
-    
-    /* CSS untuk header-right */
-    .header-right {
-      display: none;
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
     }
-    
-    /* CSS untuk menu-icon */
-    .menu-icon {
-      display: block;
+    .lesson {
+        width: 100%;
+        margin-bottom: 50px;
     }
-    
-    /* CSS responsive untuk main */
-    .top-wrapper {
-      text-align: left;
-      width: 100%;
+    .lesson .lesson-icon img {
+        width: 600px;
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+    }
+    .lesson-icon {
+        position: relative;
+        width: auto;
     }
     .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
+        font-size: 32px;
+    }
+    .headings {
+        width: 100%;
+        position: relative;
+    }
+}
+
+
+/* CSS Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    /* CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+    /* CSS untuk menu-icon */
+    .menu-icon {
+        display: block;
+    }
+    /* CSS responsive untuk main */
+    .top-wrapper {
+        text-align: left;
+        width: 100%;
+    }
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
     }
     .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .lesson {
+        width: 100%;
+    }
+    .top-wrapper {
+        text-align: left;
+    }
+    .header-right {
+        display: none;
+    }
+    .lesson .lesson-icon img {
+        width: 400px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headings {
+        width: auto;
+        position: relative;
+        flex-direction: column;
+        /* margin: 20px 30px 0 30px */
+    }
+    .headings-item {
+        float: left;
+        width: 20%;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    .text-contents {
+        align-items: center;
     }
 }
