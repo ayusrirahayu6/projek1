@@ -347,9 +347,6 @@ html {
 footer {
     position: relative;
     width: 100%;
-    height: 40px;
-    padding-top: 70px;
-    padding-bottom: 20px;
 }
 
 .footer-distributed {
@@ -357,8 +354,7 @@ footer {
     text-align: left;
     font: bold 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 50px 50px 60px 50px;
-    margin-top: 80px;
+    margin-top: 5px;
 }
 
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
@@ -368,11 +364,11 @@ footer {
 
 /* Footer left */
 .footer-distributed .footer-left {
-    width: 30%;
+    width: 40%;
 }
 .footer-distributed h3 {
     color: black;
-    font: 70px , bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 0px , bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 5px;
 }
 .footer-distributed h3 span {
@@ -431,7 +427,6 @@ footer {
 .footer-distributed .footer-center p a {
     color: #fc4a4a;
     text-decoration: none;
-    ;
 }
 .footer-distributed .footer-icons {
     margin-top: 25px;
@@ -445,7 +440,7 @@ footer {
     line-height: 35px;
 }
 .footer-distributed .footer-icons a:hover {
-    background-color: lightseagreen;
+    background-color: rgb(42, 66, 65);
 }
 
 .footer-links a:hover {
@@ -454,4 +449,3 @@ footer {
 .footer-distributed .footer-center i {
     margin-left: 0;
 }
-
