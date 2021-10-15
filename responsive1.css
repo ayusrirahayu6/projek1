@@ -1,8 +1,14 @@
 /* Responsive Untuk Tablet */
 
 @media all and (max-width: 1000px) {
+    .top-wrapper {
+        background-size: cover;
+        background-position: center;
+      }
     .top-wrapper h1 {
         font-size: 32px;
+        text-align: center;
+        width: 100%;
     }
     .lesson {
         width: 100%;
@@ -17,9 +23,6 @@
     .lesson-icon {
         position: relative;
         width: auto;
-    }
-    .top-wrapper h1 {
-        font-size: 32px;
     }
     .headings {
         width: 100%;
@@ -41,7 +44,9 @@
     }
     /* CSS responsive untuk main */
     .top-wrapper {
-        text-align: left;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
         width: 100%;
     }
     .top-wrapper h1 {
