@@ -4,12 +4,10 @@
     .top-wrapper {
         background-size: cover;
         background-position: center;
-      }
-    .top-wrapper h1 {
         font-size: 32px;
         text-align: center;
         width: 100%;
-    }
+      }
     .lesson {
         width: 100%;
         margin-bottom: 50px;
