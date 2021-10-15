@@ -74,12 +74,12 @@
         /* margin: 20px 30px 0 30px */
     }
     .headings-item {
-        float: left;
-        width: 20%;
-        flex-direction: column;
+        float: inherit;
+        width: 12px;
+        flex-direction: row;
         position: relative;
-        margin-bottom: 20px;
-        padding-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 5px;
     }
     .text-contents {
         align-items: center;
