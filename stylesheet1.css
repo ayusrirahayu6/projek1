@@ -346,7 +346,9 @@ html {
 /* Footer Bottom */
 footer {
     position: relative;
-    width: 100%;
+    width: auto;
+    height: 67px;
+    
 }
 
 .footer-distributed {
@@ -355,38 +357,39 @@ footer {
     font: bold 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 5px;
+    
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+.footer-left,  .footer-center, .footer-right {
     display: inline-block;
     vertical-align: top;
 }
 
 /* Footer left */
-.footer-distributed .footer-left {
+.footer-left {
     width: 40%;
 }
-.footer-distributed h3 {
+h3 {
     color: black;
     font: 0px , bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 5px;
 }
-.footer-distributed h3 span {
+.h3 span {
     color: #fd6b6b;
 }
 
 /* Footer links */
-.footer-distributed .footer-links {
+.footer-links {
     color: black;
     margin: 20px 0 12px;
 }
-.footer-distributed .footer-links a {
+.footer-links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
     color: inherit;
 }
-.footer-distributed .footer-company-name {
+.footer-company-name {
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
@@ -394,10 +397,10 @@ footer {
 }
 
 /* Footer Center */
-.footer-distributed .footer-center {
+.footer-center {
     width: 50%;
 }
-.footer-distributed .footer-center i {
+.footer-center i {
     color: black;
     font-size: 25px;
     width: 38px;
@@ -408,30 +411,30 @@ footer {
     margin: 10px 15px;
     vertical-align: middle;
 }
-.footer-distributed .footer-center i.fa-envelope {
+.footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
 }
-.footer-distributed .footer-center p {
+.footer-center p {
     display: inline-block;
     color: black;
     vertical-align: middle;
     margin: 0;
 }
-.footer-distributed .footer-center p span {
+.footer-center p span {
     display: block;
     font-weight: normal;
     font-size: 14px;
     line-height: 2;
 }
-.footer-distributed .footer-center p a {
+.footer-center p a {
     color: #fc4a4a;
     text-decoration: none;
 }
-.footer-distributed .footer-icons {
+.footer-icons {
     margin-top: 25px;
 }
-.footer-distributed .footer-icons a {
+.footer-icons a {
     display: inline-block;
     border-radius: 2px;
     font-size: 20px;
@@ -439,13 +442,13 @@ footer {
     text-align: center;
     line-height: 35px;
 }
-.footer-distributed .footer-icons a:hover {
+.footer-icons a:hover {
     background-color: rgb(42, 66, 65);
 }
 
 .footer-links a:hover {
     color: lightseagreen;
 }
-.footer-distributed .footer-center i {
+.footer-center i {
     margin-left: 0;
 }
