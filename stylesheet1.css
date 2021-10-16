@@ -263,7 +263,8 @@ header {
     margin: auto;
 }
 
-.lesson:hover .lesson-icon,
+
+/* .lesson:hover .lesson-icon,
 .lesson:focus .lesson-icon {
     transform: scale(1.2);
     transition: all .5s;
@@ -282,7 +283,7 @@ header {
 .lesson:hover .lesson-icon::before,
 .lesson:focus .lesson-icon::before {
     display: block;
-}
+} */
 
 .lesson-icon p {
     position: absolute;
