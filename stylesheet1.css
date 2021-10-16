@@ -307,9 +307,7 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /* Arrow-btn */
-
 .arrow-btn {
     position: fixed;
     bottom: 30px;
@@ -333,133 +331,126 @@ html {
     font-size: 25px;
 }
 
+.site-footer-colors i.teal {
+    background-color: rgba(34, 49, 52, 0.8);
+    margin-top: 60px;
+}
+.site-footer-colors i {
+    float: right;
+    width: 100%;
+    height: 3px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 /* Footer Bottom */
-
-footer {
+.footer{
     position: relative;
-    width: auto;
     height: 67px;
+    width: auto;
 }
 
 .footer-distributed {
     width: 100%;
     text-align: left;
-    font: bold 16px;
+    font: 50px bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 5px;
 }
 
-.footer-left,
-.footer-center,
-.footer-right {
+.footer-left, .footer-center, .footer-right {
     display: inline-block;
     vertical-align: top;
 }
 
-
 /* Footer left */
-
 .footer-left {
     width: 40%;
 }
-
 h3 {
     color: black;
-    font: 0px, bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 20px , bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 5px;
 }
-
 .h3 span {
     color: #fd6b6b;
 }
 
-
 /* Footer links */
-
 .footer-links {
     color: black;
     margin: 20px 0 12px;
 }
-
 .footer-links a {
     display: inline-block;
-    line-height: 1.8;
+    line-height: 2.0;
     text-decoration: none;
     color: inherit;
 }
-
 .footer-company-name {
-    color: #8f9296;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     margin: 0;
 }
 
-
 /* Footer Center */
-
 .footer-center {
     width: 50%;
 }
-
 .footer-center i {
-    color: black;
     font-size: 25px;
+    color:black;
     width: 38px;
     height: 38px;
     border-radius: 50%;
     text-align: center;
-    line-height: 42px;
+    line-height: 40px;
     margin: 10px 15px;
     vertical-align: middle;
 }
-
 .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
 }
-
 .footer-center p {
     display: inline-block;
-    color: black;
     vertical-align: middle;
     margin: 0;
 }
-
 .footer-center p span {
     display: block;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
+    font-size: 17px;
+    line-height: 25px;
+}
+.footer-center p a {
+    color: rgb(153, 3, 53);
+    font: 17px bold;
 }
 
-.footer-center p a {
-    color: #fc4a4a;
-    text-decoration: none;
+/* Footer Right */
+.footer-right {
+    width: 100%;
 }
 
 .footer-icons {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .footer-icons a {
     display: inline-block;
-    border-radius: 2px;
+    border-radius: 15px;
     font-size: 20px;
-    color: black;
+    line-height: 5px;
     text-align: center;
-    line-height: 35px;
 }
 
 .footer-icons a:hover {
-    background-color: rgb(42, 66, 65);
+    background-color: orange;
 }
 
 .footer-links a:hover {
-    color: lightseagreen;
-}
-
-.footer-center i {
-    margin-left: 0;
+    color: orangered
 }
