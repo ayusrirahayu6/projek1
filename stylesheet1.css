@@ -93,7 +93,7 @@ header {
 .top-wrapper h1 {
     opacity: 1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    animation: fade-in 4.50s ease-out;
+    animation: fade-in 4.5s ease-out;
     font-size: 30px;
     letter-spacing: 5px;
     margin-bottom: 10px;
@@ -116,7 +116,7 @@ header {
 
 .top-wrapper h2 {
     opacity: 1;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     animation: fade-in 2s ease-out;
     font-size: 50px;
     letter-spacing: 5px;
@@ -256,24 +256,17 @@ header {
     position: relative;
 }
 
-
-/* .lesson .lesson-icon img {
+.lesson .lesson-icon img {
     height: 400px;
     width: 300px;
     padding: 30px;
     margin: auto;
-} */
-
-.isi-konten {
-    height: 400px;
-    width: 300px;
-    padding: 30px;
 }
 
 .lesson:hover .lesson-icon,
 .lesson:focus .lesson-icon {
     transform: scale(1.2);
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .lesson-icon::before {
@@ -303,7 +296,7 @@ header {
 .city {
     font-weight: bold;
     font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .text-contents {
@@ -328,7 +321,6 @@ html {
     right: 30px;
     z-index: 20;
 }
-
 
 .arrow-btn a {
     height: 39px;
@@ -375,7 +367,7 @@ html {
     width: 100%;
     text-align: left;
     font: 50px bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin-top: 5px;
 }
 
@@ -395,7 +387,7 @@ html {
 
 h3 {
     color: black;
-    font: 20px, bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 20px, bold Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     margin: 5px;
 }
 
@@ -413,7 +405,7 @@ h3 {
 
 .footer-links a {
     display: inline-block;
-    line-height: 2.0;
+    line-height: 2;
     text-decoration: none;
     color: inherit;
 }
@@ -490,5 +482,5 @@ h3 {
 }
 
 .footer-links a:hover {
-    color: orangered
+    color: orangered;
 }
